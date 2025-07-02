@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Typing Speed Test App</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Typing Speed Test App</h1>
+        </header>
+        <main>
+            <div class="sentence" id="sentence">The quick brown fox jumps over the lazy dog, but that’s only the beginning of this story. In a quiet village nestled between rolling hills and sparkling streams, people moved with purpose and grace. Each day brought new tasks, fresh conversations, and the comforting rhythm of routine. As the sun dipped below the horizon, casting golden light across the rooftops, a sense of calm filled the air, reminding everyone that even the busiest days can end in peace.</div>
+            <textarea class="type" id="type" rows="6"></textarea><p><strong>WPM counter: </strong><span id="liveCounter"></span></p>
+            <button class="submit" id="submit">SUBMIT</button>
+            <div class="result-section">
+                <span id="wpm">Words Per Minute(WPM): <strong id="wpm-value"></strong></span>
+                <span id="accuracy">Accuracy: <strong id="accuracy-value"></strong></span>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

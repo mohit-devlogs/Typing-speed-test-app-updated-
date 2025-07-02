@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.sentence{
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Fira Code', sans-serif;
+    justify-content: center;
+}
+
+.type{
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Inconsolata, sans-serif;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+    resize: none;
+}
+
+.result-section{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.result-section button{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.result-section button:hover{
+    color: white;
+    background-color: green;
+}
+
+.submit{
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+button:hover{
+    color: white;
+    background-color: green;
+}
+
+.sentence span {
+  transition: background-color 0.2s ease;
+}
+
+.correct {
+  background-color: #d4edda; 
+}
+
+.incorrect {
+  background-color: #f8d7da; 
+}
+
+.untyped {
+  background-color: transparent;
+}
+
+.correct, .incorrect, .untyped {
+  border-radius: 4px;
+  padding: 2px;
+}
+
